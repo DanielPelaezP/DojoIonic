@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+       DOJO-IONIC
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-card>
+  <button ion-button block (click)="funcionDojo()">holi :3</button>
+  {{infoUser.login}}
+  <img [src]="infoUser.avatar_url"alt="User Avatar" >
+  <p>numero de repositorios {{infoUser.public_repos}} </p>
+</ion-card>
+</ion-content>
